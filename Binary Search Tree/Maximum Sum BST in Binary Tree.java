@@ -26,6 +26,8 @@ Both the left and right subtrees must also be binary search trees.*/
  //if valid-->add val to sum and calculate maxSum
  //no valid-->start from new sum
  //leaf node-->take nodeval as sum and maxSum
+
+//TC;O(H)  SC:O(1)
 class Solution {
     class Pair{
         int max;
