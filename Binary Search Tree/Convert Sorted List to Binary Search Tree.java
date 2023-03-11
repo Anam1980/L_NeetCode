@@ -64,6 +64,5 @@ class Solution {
         root.right = sortedListToBST(slow.next);
 
         return root;
-
     }
 }
